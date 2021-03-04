@@ -1,0 +1,40 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{ width: 500px; }
+
+p{
+    background-color: #eee;
+    font-size: 14px;
+    max-height: 0;
+    overflow: hidden;
+    line-height: 1.6;
+    font-family: 'Century Cothic';
+    transition: all 0.3s;
+}
+
+
+button{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Century Cothic';
+    color: #fff;
+    background-color: #da4747;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-bottom: 2px solid #111;
+    user-select: none;
+}
+
+
